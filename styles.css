@@ -1,0 +1,38 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-color: #1C1C1E;
+    color: #F8F9FA;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #5A6169;
+}
+
+.top, .bottom {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.button1 {
+    padding: 5px;
+    text-align: center;
+    background-color: #D92323;
+    border-color: #E1A91A;
+    color: #F8F9FA;
+}
